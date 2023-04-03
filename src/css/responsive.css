@@ -1,0 +1,12 @@
+@media(max-width: 750px) {
+    .container {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 10px;
+    }
+
+    .container .pinturas .dados {
+        transform: translateY(-80px);
+    }
+}
